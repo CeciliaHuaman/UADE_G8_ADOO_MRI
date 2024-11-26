@@ -45,9 +45,9 @@ public class Medico {
      * @param horario 
      * @return
      */
-    public Bool estoyDisponible(Date horario) {
+    public boolean estoyDisponible(Date horario) {
         // TODO implement here
-        return null;
+        return false;
     }
 
 }

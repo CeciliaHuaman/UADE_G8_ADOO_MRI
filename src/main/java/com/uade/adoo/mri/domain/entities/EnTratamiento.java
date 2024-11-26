@@ -44,21 +44,6 @@ public class EnTratamiento implements EstadoPaciente {
     /**
      * @param paciente
      */
-    public abstract void pendienteTurno(Paciente paciente);
-
-    /**
-     * @param paciente
-     */
-    public abstract void turnoAsignado(Paciente paciente);
-
-    /**
-     * @param paciente
-     */
-    public abstract void enTratamiento(Paciente paciente);
-
-    /**
-     * @param paciente
-     */
-    public abstract void alta(Paciente paciente);
+   
 
 }

@@ -21,7 +21,7 @@ public class Paciente {
     /**
      * 
      */
-    private integer nroDocumento;
+    private Integer nroDocumento;
 
     /**
      * 

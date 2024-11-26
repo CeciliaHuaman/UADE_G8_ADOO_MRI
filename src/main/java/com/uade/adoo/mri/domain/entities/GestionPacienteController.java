@@ -32,7 +32,7 @@ public class GestionPacienteController {
     /**
      * @return
      */
-    public Collection<Pacientes> getPacientes() {
+    public Collection<Paciente> getPacientes() {
         // TODO implement here
         return null;
     }
