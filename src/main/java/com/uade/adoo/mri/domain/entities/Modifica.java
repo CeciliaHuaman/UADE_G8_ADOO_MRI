@@ -1,4 +1,4 @@
-
+package com.uade.adoo.mri.domain.entities;
 import java.io.*;
 import java.util.*;
 
@@ -13,40 +13,26 @@ public class Modifica implements EstadoTurno {
     public Modifica() {
     }
 
-    /**
-     * 
-     */
-    public void asignar() {
-        // TODO implement here
+
+
+    @Override
+    public void asignar(Turno turno) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'asignar'");
     }
 
-    /**
-     * 
-     */
-    public void modificar() {
-        // TODO implement here
+    @Override
+    public void modificar(Turno turno) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'modificar'");
     }
 
-    /**
-     * 
-     */
-    public void cancelar() {
-        // TODO implement here
+    @Override
+    public void cancelar(Turno turno) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'cancelar'");
     }
 
-    /**
-     * @param turno
-     */
-    public abstract void asignar(Turno turno);
 
-    /**
-     * @param turno
-     */
-    public abstract void modificar(Turno turno);
-
-    /**
-     * @param turno
-     */
-    public abstract void cancelar(Turno turno);
 
 }

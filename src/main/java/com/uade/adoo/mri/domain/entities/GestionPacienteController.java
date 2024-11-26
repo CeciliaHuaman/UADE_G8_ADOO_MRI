@@ -1,4 +1,4 @@
-
+package com.uade.adoo.mri.domain.entities;
 import java.io.*;
 import java.util.*;
 
@@ -32,7 +32,7 @@ public class GestionPacienteController {
     /**
      * @return
      */
-    public Collection<Pacientes> getPacientes() {
+    public Collection<Paciente> getPacientes() {
         // TODO implement here
         return null;
     }

@@ -1,4 +1,4 @@
-
+package com.uade.adoo.mri.domain.entities;
 import java.io.*;
 import java.util.*;
 
@@ -21,7 +21,7 @@ public class Paciente {
     /**
      * 
      */
-    private integer nroDocumento;
+    private Integer nroDocumento;
 
     /**
      * 

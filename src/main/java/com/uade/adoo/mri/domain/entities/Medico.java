@@ -1,4 +1,4 @@
-
+package com.uade.adoo.mri.domain.entities;
 import java.io.*;
 import java.util.*;
 
@@ -45,7 +45,7 @@ public class Medico {
      * @param horario 
      * @return
      */
-    public Bool estoyDisponible(Date horario) {
+    public Boolean estoyDisponible(Date horario) {
         // TODO implement here
         return null;
     }

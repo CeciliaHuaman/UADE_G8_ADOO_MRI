@@ -1,4 +1,4 @@
-
+package com.uade.adoo.mri.domain.entities;
 import java.io.*;
 import java.util.*;
 
@@ -84,8 +84,7 @@ public abstract class Turno {
      * @return
      */
     public void asignarDatos(Paciente paciente) {
-        // TODO implement here
-        return null;
+
     }
 
 }

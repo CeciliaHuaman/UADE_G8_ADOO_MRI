@@ -1,6 +1,7 @@
-
+package com.uade.adoo.mri.domain.entities;
 import java.io.*;
 import java.util.*;
+import com.uade.adoo.mri.domain.entities.Paciente;
 
 /**
  * 
@@ -34,7 +35,7 @@ public class GestionTurnoController {
      * @param docu 
      * @return
      */
-    public Collection<Turnos> getTurnosPaciente(Paciente.nroDocumento docu) {
+    public Collection<Turno> getTurnosPaciente(Paciente.nroDocumento docu) {
         // TODO implement here
         return null;
     }
@@ -43,7 +44,7 @@ public class GestionTurnoController {
      * @param matricula 
      * @return
      */
-    public Collection<Turnos> getTurnosMedico(Integer matricula) {
+    public Collection<Turno> getTurnosMedico(Integer matricula) {
         // TODO implement here
         return null;
     }
