@@ -13,36 +13,18 @@ public class Modifica implements EstadoTurno {
     public Modifica() {
     }
 
-    /**
-     * 
-     */
+    @Override
+    public void asignar(Turno turno) {
 
-    /**
-     * 
-     */
+    }
 
+    @Override
+    public void modificar(Turno turno) {
 
-	@Override
-	public void asignar(Turno turno) {
-		// TODO Auto-generated method stub
-		
-	}
+    }
 
-	@Override
-	public void modificar(Turno turno) {
-		// TODO Auto-generated method stub
-		
-	}
+    @Override
+    public void cancelar(Turno turno) {
 
-	@Override
-	public void cancelar(Turno turno) {
-		// TODO Auto-generated method stub
-		
-	}
-
-    /**
-     * @param turno
-     */
-
-
+    }
 }

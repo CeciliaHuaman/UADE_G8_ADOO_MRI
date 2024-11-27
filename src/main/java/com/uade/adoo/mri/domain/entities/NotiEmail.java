@@ -13,4 +13,16 @@ public class NotiEmail {
     public NotiEmail() {
     }
 
+    /**
+     * 
+     */
+    private JavaMail servicio;
+
+    /**
+     * @param notificacion
+     */
+    public void enviarNotificacion(Notificacion notificacion) {
+        // TODO implement here
+    }
+
 }

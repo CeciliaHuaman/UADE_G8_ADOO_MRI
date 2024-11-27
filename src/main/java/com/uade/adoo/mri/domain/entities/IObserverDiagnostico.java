@@ -7,4 +7,9 @@ import java.util.*;
  */
 public interface IObserverDiagnostico {
 
+    /**
+     * 
+     */
+    public void notificarDiagnostico();
+
 }

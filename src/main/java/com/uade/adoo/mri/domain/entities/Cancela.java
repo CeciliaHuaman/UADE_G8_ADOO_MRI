@@ -7,6 +7,13 @@ import java.util.*;
  */
 public class Cancela implements EstadoTurno {
 
+    /**
+     * Default constructor
+     */
+    public Cancela() {
+    }
+
+
     @Override
     public void asignar(Turno turno) {
 

@@ -34,7 +34,7 @@ public class GestionTurnoController {
      * @param docu 
      * @return
      */
-    public Collection<Turno> getTurnosPaciente(Integer docu) {
+    public Collection<Turno> getTurnosPaciente(Paciente docu) {
         // TODO implement here
         return null;
     }

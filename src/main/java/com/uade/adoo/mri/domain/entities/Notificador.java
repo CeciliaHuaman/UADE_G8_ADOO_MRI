@@ -25,4 +25,11 @@ public class Notificador {
         // TODO implement here
     }
 
+    /**
+     * @param estrategia
+     */
+    public void cambiarEstrategia(IStrategyNotificacion estrategia) {
+        // TODO implement here
+    }
+
 }

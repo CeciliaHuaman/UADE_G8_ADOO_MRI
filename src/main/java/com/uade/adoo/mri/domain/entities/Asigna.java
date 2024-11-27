@@ -7,6 +7,12 @@ import java.util.*;
  */
 public class Asigna implements EstadoTurno {
 
+    /**
+     * Default constructor
+     */
+    public Asigna() {
+    }
+
     @Override
     public void asignar(Turno turno) {
 

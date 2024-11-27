@@ -18,4 +18,9 @@ public abstract class eventoDiagnostico {
      */
     private String eventType;
 
+    /**
+     * 
+     */
+    private List<IObserverDiagnostico> observer;
+
 }

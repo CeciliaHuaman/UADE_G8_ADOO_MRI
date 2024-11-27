@@ -33,9 +33,6 @@ public abstract class Especialidad {
      * @param horario 
      * @return
      */
-    public Medico pedirMedico(Especialidad especialidad, Date horario) {
-        // TODO implement here
-        return null;
-    }
+    public abstract Medico pedirMedico(Especialidad especialidad, Date horario);
 
 }

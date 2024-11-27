@@ -13,4 +13,13 @@ public class Pediatria extends Especialidad {
     public Pediatria() {
     }
 
+    /**
+     * @param especialidad
+     * @param horario
+     * @return
+     */
+    public Medico pedirMedico(Especialidad especialidad, Date horario) {
+        return null;
+    }
+
 }

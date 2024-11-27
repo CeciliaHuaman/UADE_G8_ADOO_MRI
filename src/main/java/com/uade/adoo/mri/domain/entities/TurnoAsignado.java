@@ -41,6 +41,5 @@ public class TurnoAsignado implements EstadoPaciente {
         // TODO implement here
     }
 
-    
 
 }

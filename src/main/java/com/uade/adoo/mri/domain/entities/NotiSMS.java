@@ -13,4 +13,16 @@ public class NotiSMS {
     public NotiSMS() {
     }
 
+    /**
+     * 
+     */
+    private Twilio servicio;
+
+    /**
+     * @param notificacion
+     */
+    public void enviarNotificacion(Notificacion notificacion) {
+        // TODO implement here
+    }
+
 }

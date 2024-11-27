@@ -41,9 +41,4 @@ public class EnTratamiento implements EstadoPaciente {
         // TODO implement here
     }
 
-    /**
-     * @param paciente
-     */
-   
-
 }

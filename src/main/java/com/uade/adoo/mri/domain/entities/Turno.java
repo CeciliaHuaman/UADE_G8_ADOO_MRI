@@ -85,7 +85,7 @@ public abstract class Turno {
      */
     public void asignarDatos(Paciente paciente) {
         // TODO implement here
-        
+
     }
 
 }

@@ -26,12 +26,22 @@ public class Paciente {
     /**
      * 
      */
+    private List<Turno> turnos;
+
+    /**
+     * 
+     */
     private HistoriaClinica historiaClinica;
 
     /**
      * 
      */
     private String mail;
+
+    /**
+     * 
+     */
+    private Integer telefono;
 
     /**
      * 
@@ -65,6 +75,13 @@ public class Paciente {
      * 
      */
     public void cambiarEstado() {
+        // TODO implement here
+    }
+
+    /**
+     * 
+     */
+    public void notificarDiagnostico() {
         // TODO implement here
     }
 

@@ -18,4 +18,9 @@ public class HistoriaClinica {
      */
     private List<Tratamiento> tratamientos;
 
+    /**
+     * 
+     */
+    private Integer identificador;
+
 }

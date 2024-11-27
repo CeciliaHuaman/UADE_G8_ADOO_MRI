@@ -13,4 +13,13 @@ public class Traumatologia extends Especialidad {
     public Traumatologia() {
     }
 
+    /**
+     * @param especialidad
+     * @param horario
+     * @return
+     */
+    public Medico pedirMedico(Especialidad especialidad, Date horario) {
+        return null;
+    }
+
 }
