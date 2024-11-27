@@ -1,10 +1,15 @@
 package com.uade.adoo.mri.domain.entities;
+import lombok.*;
+
 import java.io.*;
 import java.util.*;
 
 /**
  * 
  */
+@RequiredArgsConstructor
+@Getter
+@Setter
 public class Paciente {
 
     /**
@@ -16,11 +21,13 @@ public class Paciente {
     /**
      * 
      */
+    @NonNull
     private String nombre;
 
     /**
      * 
      */
+    @NonNull
     private Integer nroDocumento;
 
     /**
@@ -31,16 +38,19 @@ public class Paciente {
     /**
      * 
      */
+
     private HistoriaClinica historiaClinica;
 
     /**
      * 
      */
+    @NonNull
     private String mail;
 
     /**
      * 
      */
+    @NonNull
     private Integer telefono;
 
     /**
