@@ -53,6 +53,8 @@ public class Paciente {
     @NonNull
     private Integer telefono;
 
+    private EstadoPaciente estadoPaciente;
+
     /**
      * 
      */
@@ -84,8 +86,9 @@ public class Paciente {
     /**
      * 
      */
-    public void cambiarEstado() {
+    public void cambiarEstado(EstadoPaciente estadoPaciente) {
         // TODO implement here
+        this.estadoPaciente = estadoPaciente;
     }
 
     /**

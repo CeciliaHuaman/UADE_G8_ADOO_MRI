@@ -39,6 +39,7 @@ public class EnTratamiento implements EstadoPaciente {
      */
     public void alta(Paciente paciente) {
         // TODO implement here
+        paciente.cambiarEstado(new Alta());
     }
 
 }

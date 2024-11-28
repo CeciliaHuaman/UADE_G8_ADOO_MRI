@@ -32,6 +32,7 @@ public class TurnoAsignado implements EstadoPaciente {
      */
     public void enTratamiento(Paciente paciente) {
         // TODO implement here
+        paciente.cambiarEstado(new EnTratamiento());
     }
 
     /**

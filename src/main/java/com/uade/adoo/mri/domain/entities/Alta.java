@@ -18,6 +18,8 @@ public class Alta implements EstadoPaciente {
      */
     public void pendienteTurno(Paciente paciente) {
         // TODO implement here
+        paciente.cambiarEstado(new PendienteTurno());
+
     }
 
     /**
